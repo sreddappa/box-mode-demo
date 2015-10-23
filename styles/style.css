@@ -1,25 +1,17 @@
-h1:hover{
-  color:aqua;}
-
-a:visited{
-  text-decoration: none;}
-
-header{
-  text-align: center;
-  width: 75%;
-  margin:auto;
+header img {
+  width:15rem;
+  
 }
 
-article{
-  width: 60%;
-  margin: auto;
+nav a {
+  text-decoration: line-through;
 }
 
-p::first-letter{
-  font-size: 1.5em;
+a{
+  text-decoration: none;
 }
 
-footer{
-  border: 2px solid magenta;
-  border-radius: 25px;
-}
+/* more recent takes presedence*/
+
+p {color: magenta;}
+p {color: orange;}
